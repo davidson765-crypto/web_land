@@ -42,14 +42,14 @@
 	.sitebar{
 		font-size: 1.7em;
 	}
-	a{
+	.a{
 		margin: 0 0 0 10px;
 		color: black;
 		text-decoration: none;
 		cursor: pointer;
 		transition: 0.3s ease-out;
 	}
-	a:hover{
+	.a:hover{
 		background-color: red;
 		color: white;
 	}
@@ -120,14 +120,14 @@
 		font-size: 1.7em;
 		display: inline-block;
 	}
-	a{
+	.a{
 		margin: 0 0 0 10px;
 		color: black;
 		text-decoration: none;
 		cursor: pointer;
 		transition: 0.3s ease-out;
 	}
-	a:hover{
+	.a:hover{
 		background-color: red;
 		color: white;
 	}
@@ -163,8 +163,8 @@
 .reviewer{
 	box-shadow: 5px 5px 5px gray;
 	margin: 10px;
-	width: 150px;
-	height: 100px;
+	width: 200px;
+	height: 110px;
 	border: 1px solid black;
 }
 .logos{
@@ -236,4 +236,63 @@
 	grid-template-columns: 1fr 1fr 1.1fr;
 }
 
-
+.tag{
+	font-size: 0.5em;
+	margin:0 2px;
+	color: gray;
+}
+#but{
+	margin: 0 0 0 10px;
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+	transition: 0.3s ease-out;
+}
+#but:hover{
+	background-color: red;
+	color: white;
+}
+.div11{
+	display: grid;
+}
+.wm{
+	width: 70%; 
+	margin: 0 20px;
+}
+.span_review{
+	margin: 0 0 0 10px;
+}
+.cub{
+	position: absolute; 
+	z-index: 3; 
+	margin: -150px 170px;
+}
+.div22{
+	margin: 20px 0 50px 120px;
+}
+.main_text{
+	color: gray; 
+	font-size: 0.5em;
+}
+.block1{
+	height: 40%; 
+	width: 100%;
+}
+.block2{
+	height: 60%; 
+	width: 100%; 
+	background-color: white; 
+	color: black;
+}
+.block2_text{
+	font-size: 0.7em;
+	margin: 0 0 0; 
+	display: grid; 
+	grid-template-columns: 1fr 1fr;
+	color: gray;
+}
+.block11{
+	height: 40%; 
+	width: 100%;
+	background-color: gray;
+}
