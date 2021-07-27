@@ -229,6 +229,18 @@
 	background-color: gray;
 }
 
+.footer{
+	width: 150%;
+}
+.foo{
+	width: 100%;
+	margin: 100px 0 0 100px;
+}
+.hr_len{
+	height: 1px;
+	width: 150%;
+}
+
 }
 
 @media (max-width: 540px){
@@ -469,8 +481,24 @@
 	width: 100%;
 	background-color: gray;
 }
+.footer{
+	width: 80%;
+	margin: 0 70px;
+}
+.footer{
+	width: 80%;
+}
+.foo{
+	width: 100%;
+	margin: 0 0 0 100px;
+}
+.hr_len{
+	height: 1px;
+	width: 80%;
+}
 
 }
+
 
 
 @media(max-width: 540px){
