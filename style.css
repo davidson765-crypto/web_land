@@ -319,9 +319,9 @@
 	grid-template-columns: 0.1fr;
 }
 .review{
-	margin: 10px;
-	width: 200px;
-	height: 220px;
+	margin: 50px;
+	width: 500px;
+	height: 350px;
 	box-shadow: 3px 3px 3px gray;
 }
 .reviewer{
@@ -366,7 +366,7 @@
     justify-content: flex-start;
     align-items: center;
 	top: 50%;
-	margin: 5px 10px;
+	margin: 50px 10px;
 	display: grid;
 	grid-template-columns: 1fr 1.5fr;
 }
@@ -387,16 +387,17 @@
 	flex-flow: row wrap;
 }
 .cop{
+    font-size: 1em;
 	margin: 0 10px;
 	display: grid;
 	grid-template-columns: auto auto auto;
 }
 .comtext{
 	margin: 0 10px;
-	font-size: 0.45em;
+	font-size: 1em;
 }
 .comfooter{
-	font-size: 0.5em;
+	font-size: 0.8em;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1.1fr;
 }
@@ -437,7 +438,7 @@
 }
 .main_text{
 	color: gray; 
-	font-size: 0.5em;
+	font-size: 0.8em;
 }
 .block1{
 	height: 40%; 
