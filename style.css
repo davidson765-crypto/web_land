@@ -1,4 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>главная</title>
 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        
 @media (min-width: 540px){
 
 	body{
@@ -75,94 +83,7 @@
 	.dih{
 		display: block;
 	}
-
-}
-
-@media (max-width: 540px){
-	.hid{
-		display: block;
-	}
-	.dih{
-		display: none;
-	}
-
-	body{
-		margin: 0 50%;
-		width: auto;
-		height: 1200px;
-		text-align: center;
-		max-width: 1000px;
-		position: absolute;
-		background: white;
-	}
-	.div1{
-		width: 100%;
-		height: 20%;
-		background: white;
-		margin: 0 100px 30px 100px;
-	}
-	.div2{
-		margin: 0 100px 30px 100px;
-		display: flex;
-		width: 100%;
-		height: 25%;
-		background-color: #C0C0C0;
-	}
-	.div3{
-		display: flex;
-		width: 100%;
-		height: 60%;
-		background: white;
-	}
-	.img{
-		width: 40px;
-		height: 40px;
-		margin: 10px;
-		mix-blend-mode: multiply;
-	}
-	.ing{
-		width: 10%;
-		height: 10%;
-		margin: 10px;
-		mix-blend-mode: multiply;
-	}
-	.hr{
-		width: 100%;
-	}
-	.sitebar{
-		font-size: 1.7em;
-		display: inline-block;
-	}
-	.a{
-		margin: 0 0 0 10px;
-		color: black;
-		text-decoration: none;
-		cursor: pointer;
-		transition: 0.3s ease-out;
-	}
-	.a:hover{
-		background-color: red;
-		color: white;
-	}
-	.small{
-		font-size: 0.7em;
-
-	}
-	.small1{
-		font-size: 0.7em;
-		margin-left: auto;
-		margin-right: 400px;
-	}
-	.bear{
-		width: 25%;
-		height: 30%;
-		position: absolute;
-		margin: -200px 200px;
-		z-index: 4;
-	}
-
-}
-.comment{
+	.comment{
 	margin: 0 0 0 100px;
 	display: grid;
 	grid-template-columns: 0.1fr 1fr;
@@ -181,14 +102,15 @@
 	border: 1px solid black;
 }
 .logos{
-	margin: 0 150px 0 0;
+	margin: 0 0 0 100px;
 	display: grid;
 }
 .column{
 	display: grid;
-	grid-template-columns: 1fr 0.1fr;
+	grid-template-columns: 1fr 1fr;
 }
 .top5{
+    margin: 20px 0 50px 10px;
 	color: red;
 	text-align: left;
 	width: 150px;
@@ -316,10 +238,252 @@
 	background-color: gray;
 }
 
+}
+
+@media (max-width: 540px){
+	.hid{
+		display: block;
+	}
+	.dih{
+		display: none;
+	}
+
+	body{
+		margin: 0 10%;
+		width: auto;
+		height: 1200px;
+		text-align: center;
+		max-width: 1000px;
+		position: absolute;
+		background: white;
+	}
+	.div1{
+		width: 100%;
+		height: 20%;
+		background: white;
+		margin: 0 100px 30px 100px;
+	}
+	.div2{
+		margin: 0 100px 30px 100px;
+		display: flex;
+		width: 100%;
+		height: 25%;
+		background-color: #C0C0C0;
+	}
+	.div3{
+		display: flex;
+		width: 100%;
+		height: 60%;
+		background: white;
+	}
+	.img{
+		width: 40px;
+		height: 40px;
+		margin: 10px;
+		mix-blend-mode: multiply;
+	}
+	.ing{
+		width: 10%;
+		height: 10%;
+		margin: 10px;
+		mix-blend-mode: multiply;
+	}
+	.hr{
+		width: 100%;
+	}
+	.sitebar{
+		font-size: 1.7em;
+		display: inline-block;
+	}
+	.a{
+		margin: 0 0 0 10px;
+		color: black;
+		text-decoration: none;
+		cursor: pointer;
+		transition: 0.3s ease-out;
+	}
+	.a:hover{
+		background-color: red;
+		color: white;
+	}
+	.small{
+		font-size: 0.7em;
+
+	}
+	.small1{
+		font-size: 0.7em;
+		margin-left: auto;
+		margin-right: 400px;
+	}
+	.bear{
+		width: 25%;
+		height: 30%;
+		position: absolute;
+		margin: -200px 200px;
+		z-index: 4;
+	}
+	.comment{
+	margin: 0 0 0 100px;
+	display: grid;
+	grid-template-columns: 0.1fr;
+}
+.review{
+	margin: 10px;
+	width: 200px;
+	height: 220px;
+	box-shadow: 3px 3px 3px gray;
+}
+.reviewer{
+	box-shadow: 5px 5px 5px gray;
+	margin: 10px;
+	width: 200px;
+	height: 110px;
+	border: 1px solid black;
+}
+.logos{
+	margin: 0 0 0 100px;
+	display: grid;
+}
+.column{
+	display: grid;
+	grid-template-columns: 1fr;
+}
+.top5{
+    margin: 20px 0 50px 10px;
+	color: red;
+	text-align: left;
+	width: 150px;
+	height: 20px;
+	font-size: 1.5em;
+}
+.hua{
+	width: 70%;
+	height: 70%;
+}
+.inst{
+	width: 30%;
+	height: 80%;
+}
+.corsac{
+	line-height: 0.5;
+	width: 100%;
+	height: 20%;
+	margin: 10px;
+}
+.logotext{
+	display: flex;
+    justify-content: flex-start;
+    align-items: center;
+	top: 50%;
+	margin: 5px 10px;
+	display: grid;
+	grid-template-columns: 1fr 1.5fr;
+}
+.ecco{
+	width: 60%;
+	height: 60%;
+}
+.chunk{
+	width: 50%;
+	height: 10%;
+	font-size: 0.5em;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.chunk2{
+	margin: 0 5px;
+	display: flex;
+	flex-flow: row wrap;
+}
+.cop{
+	margin: 0 10px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+.comtext{
+	margin: 0 10px;
+	font-size: 0.45em;
+}
+.comfooter{
+	font-size: 0.5em;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1.1fr;
+}
+
+.tag{
+	font-size: 0.5em;
+	margin:0 2px;
+	color: gray;
+}
+#but{
+	margin: 0 0 0 10px;
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+	transition: 0.3s ease-out;
+}
+#but:hover{
+	background-color: red;
+	color: white;
+}
+.div11{
+	display: grid;
+}
+.wm{
+	width: 60%; 
+	margin: 0 20px;
+}
+.span_review{
+	margin: 0 0 0 10px;
+}
+.cub{
+	position: absolute; 
+	z-index: 3; 
+	margin: -150px 170px;
+}
+.div22{
+	margin: 20px 0 50px 20px;
+}
+.main_text{
+	color: gray; 
+	font-size: 0.5em;
+}
+.block1{
+	height: 40%; 
+	width: 100%;
+}
+.block2{
+	height: 60%; 
+	width: 100%; 
+	background-color: white; 
+	color: black;
+}
+.block2_text{
+	margin-bottom: 2px;
+	font-size: 0.7em;
+	display: grid; 
+	grid-template-columns: 1fr 1fr;
+	color: gray;
+	height: 50%;
+}
+.bloc2_title{
+	font-size: 0.7em;
+	width: 100%;
+	height: 50%;
+}
+.block11{
+	height: 40%; 
+	width: 100%;
+	background-color: gray;
+}
+
+}
+
+
 @media(max-width: 540px){
 	body{
 		height: auto;
-		margin: 0 50%;
+		margin: 0 5%;
 		width: auto;
 	}
 	#menu__toggle {
@@ -411,3 +575,537 @@
 	  transition-duration: .25s;
 	}
 }
+    </style>
+
+
+</head>
+<body>
+
+	<div class="div1">
+		<div class="div11">
+
+		<img class="img" src="logop.png">
+		<div align="left" style="margin: 10px 50px; width: 90%; display: inline-block;">
+			<div class="dih">
+			<span><a class="a" href="">Компании</a></span>
+			<span><a class="a" href="">Добавить компанию</a></span>
+			<span><a class="a" href="">Добавить отзыв</a></span>
+			<span><a class="a" href="">Правила</a></span>
+			<hr class="hr">
+		</div>
+		</div>
+
+  <div class="hid">
+		<div class="hamburger-menu">
+  <input id="menu__toggle" type="checkbox" />
+  <label class="menu__btn" for="menu__toggle">
+    <span></span>
+  </label>
+  <ul class="menu__box">
+    <li><a class="menu__item" href="#">Компании</a></li>
+    <li><a class="menu__item" href="#">Добавить компанию</a></li>
+    <li><a class="menu__item" href="#">Добавит отзыв</a></li>
+    <li><a class="menu__item" href="#">Правила</a></li>
+  </ul>
+</div>
+</div>
+		<div align="left" class="wm">
+						<div class="sitebar">
+							<span>Сайт</span>
+							<span style="color: red;">реальных</span>
+							<span>отзывов</span>
+						</div>
+					<div><img src="point.png"><span class="span_review">Мы зa честность: оставляем все отзывы как положительные, так и отрицательные</span></div>
+					<div><img src="point.png"><span class="span_review">На рейтинг компании не влияют неподтвержденные отзывы конкурентов или обиженных сотрудников</span></div>
+					<div><img src="point.png"><span class="span_review">Ответы представителя компании в открытом доступе</span></div>
+					<div><img src="point.png"><span class="span_review">Контакты доступны всем: всегда можно связаться с автором отзыва</span></div>
+			
+		</div>
+	</div>
+
+
+	</div>
+
+	<img class="bear" src="Медведь.png">
+	<img class="cub" src="kub.png">
+	<img class="cub" src="kub1.png">
+
+	<div class="div2">
+		<div class="div22">
+			<div align="left">
+				<div class="sitebar"><span style="color: red;">Сайт отзывов</span> против накруток,<br>парсинга и заказных отзывов
+				</div>
+					<div><img src="redpoint.png"><span class="span_review">мы представляем собой «другой отзовик» </span></div>
+					<div><img src="redpoint.png"><span class="span_review">не размещаем накрученные отзывы</span></div>
+					<div><img src="redpoint.png"><span class="span_review">не копируем комментарии с других сайтов</span></div>
+					<div><img src="redpoint.png"><span class="span_review">не работаем с заказными отзывами и черным PR</span></div>
+				<p class="small1">Каждый автор гарантированно остается анонимным, и все отзывы проходят несколько уровней модерации. Для этого мы используем проверку семантики отзывы, подключаем технологию вебвизора 
+и не используем печати IP, чтобы не компрометировать компании. </p>
+				<p><span style="color: red;">Оставляйте</span> реальные отзывы, и правдивой информации станет<br> больше!</p>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="div3">
+		<div class="column">
+			<div class="comment">
+								<div class="review">
+					<div align="left">
+					<div class="corsac">
+						<a href="" class="tag">Астрология / Саморазвитие</a>
+					</div>
+				</div>
+					<div class="logotext">
+						<img class="ecco" src="mc.png">
+
+						<div align="left" class="main_text">Megacampus – онлайн-
+университет с возможностью трудоустройства</div>
+					</div>
+					<hr style="width: 90%;">
+					<div class="cop">
+						<div class="chunk">
+							<div class="chunk2">
+								<img src="icon.png">
+							</div>
+						</div>
+						<div class="chunk">
+							<div class="chunk2">
+								
+								<div style="color: gray;">Автор</div>
+								<div>Administration</div>
+							</div>
+						</div>
+						<div class="chunk">
+							<div class="chunk2">
+								<div style="color: gray;">Отзыв:</div>
+								<div>Сотрудник</div>
+							</div>
+						</div>
+					</div>
+					<br>
+					<div align="left">
+						<div class="comtext">Стресс на работе побеждаю спортом, бегаю в своих же экковских кроссовках. Бывают моменты, когда всего много – 
+и товаров, и покупателей, и надо постоянно ставить себе Накапливается напряжение ..</div>
+					</div>
+					<br>
+					<div class="comfooter">
+						<div><img src="date.png">10.10.20</div>
+						<div><img src="com.png">327</div>
+						<div><a href="" style="color: red;">Читать отзыв</a></div>
+					</div>
+
+				</div>
+				<div class="review">
+					<div align="left">
+					<div class="corsac">
+						<a href="" class="tag">Обувь </a>
+					</div>
+				</div>
+					<div class="logotext">
+						<img class="ecco" src="ecco1.png">
+
+						<div align="left" class="main_text">ECCO</div>
+					</div>
+					<hr style="width: 90%;">
+					<div class="cop">
+						<div class="chunk">
+							<div class="chunk2">
+								<img src="icon.png">
+							</div>
+						</div>
+						<div class="chunk">
+							<div class="chunk2">
+								
+								<div style="color: gray;">Автор</div>
+								<div>Administration</div>
+							</div>
+						</div>
+						<div class="chunk">
+							<div class="chunk2">
+								<div style="color: gray;">Отзыв:</div>
+								<div>Сотрудник</div>
+							</div>
+						</div>
+					</div>
+					<br>
+					<div align="left">
+						<div class="comtext">Стресс на работе побеждаю спортом, бегаю в своих же экковских кроссовках. Бывают моменты, когда всего много – 
+и товаров, и покупателей, и надо ставить себе профессиональные цели, планы. Накапливается напряжение ..</div>
+					</div>
+					<br>
+					<div class="comfooter">
+						<div><img src="date.png">10.10.20</div>
+						<div><img src="com.png">327</div>
+						<div><a href="" style="color: red;">Читать отзыв</a></div>
+					</div>
+
+				</div>
+				<div class="review">
+					<div align="left">
+					<div class="corsac">
+						<a href="" class="tag">Астрология / Саморазвитие</a>
+					</div>
+				</div>
+					<div class="logotext">
+						<img class="ecco" src="dm.png">
+
+						<div align="left" class="main_text">Дмитрий Шимко отзывы 
+о специалисте</div>
+					</div>
+					<hr style="width: 90%;">
+					<div class="cop">
+						<div class="chunk">
+							<div class="chunk2">
+								<img src="icon.png">
+							</div>
+						</div>
+						<div class="chunk">
+							<div class="chunk2">
+								
+								<div style="color: gray;">Автор</div>
+								<div>Administration</div>
+							</div>
+						</div>
+						<div class="chunk">
+							<div class="chunk2">
+								<div style="color: gray;">Отзыв:</div>
+								<div>Сотрудник</div>
+							</div>
+						</div>
+					</div>
+					<br>
+					<div align="left">
+						<div class="comtext">Дмитрий Шимко нумеролог-астротиполог составит Вам карту Судьбы с основными её этапами и полным описанием предстоящих жизненно важных событий! Все что для этого необходимо, это знать ..</div>
+					</div>
+					<br>
+					<div class="comfooter">
+						<div><img src="date.png">10.10.20</div>
+						<div><img src="com.png">327</div>
+						<div><a href="" style="color: red;">Читать отзыв</a></div>
+					</div>
+
+				</div>
+				<div class="review">
+					<div align="left">
+					<div class="corsac">
+						<a href="" class="tag">Am.Pm сантехника отзывы</a>
+					</div>
+				</div>
+					<div class="logotext">
+						<img class="ecco" src="am.png">
+
+						<div align="left" class="main_text">Дмитрий Шимко отзывы 
+о специалисте</div>
+					</div>
+					<hr style="width: 90%;">
+					<div class="cop">
+						<div class="chunk">
+							<div class="chunk2">
+								<img src="icon.png">
+							</div>
+						</div>
+						<div class="chunk">
+							<div class="chunk2">
+								
+								<div style="color: gray;">Автор</div>
+								<div>Administration</div>
+							</div>
+						</div>
+						<div class="chunk">
+							<div class="chunk2">
+								<div style="color: gray;">Отзыв:</div>
+								<div>Сотрудник</div>
+							</div>
+						</div>
+					</div>
+					<br>
+					<div align="left">
+						<div class="comtext">AM.PM сантехника – это смесители, унитазы, ванны, душевые кабины, биде, мебель и аксессуары для ванных комнат. Вы можете прочитать отзывы на нашем сайте и оставить мебель и аксессуары 
+для ванных, душевые кабины ..</div>
+					</div>
+					<br>
+					<div class="comfooter">
+						<div><img src="date.png">10.10.20</div>
+						<div><img src="com.png">327</div>
+						<div><a href="" style="color: red;">Читать отзыв</a></div>
+					</div>
+
+				</div>
+				<div class="review">
+					<div align="left">
+					<div class="corsac">
+						<a href="" class="tag">Обувь </a>
+					</div>
+				</div>
+					<div class="logotext">
+						<img class="ecco" src="ecco1.png">
+
+						<div align="left" class="main_text">ECCO</div>
+					</div>
+					<hr style="width: 90%;">
+					<div class="cop">
+						<div class="chunk">
+							<div class="chunk2">
+								<img src="icon.png">
+							</div>
+						</div>
+						<div class="chunk">
+							<div class="chunk2">
+								
+								<div style="color: gray;">Автор</div>
+								<div>Administration</div>
+							</div>
+						</div>
+						<div class="chunk">
+							<div class="chunk2">
+								<div style="color: gray;">Отзыв:</div>
+								<div>Сотрудник</div>
+							</div>
+						</div>
+					</div>
+					<br>
+					<div align="left">
+						<div class="comtext">Стресс на работе побеждаю спортом, бегаю в своих же экковских кроссовках. Бывают моменты, когда всего много – 
+и товаров, и покупателей, и надо ставить себе профессиональные цели, планы. Накапливается напряжение ..</div>
+					</div>
+					<br>
+					<div class="comfooter">
+						<div><img src="date.png">10.10.20</div>
+						<div><img src="com.png">327</div>
+						<div><a href="" style="color: red;">Читать отзыв</a></div>
+					</div>
+
+				</div>
+								<div class="review">
+					<div align="left">
+					<div class="corsac">
+						<a href="" class="tag">Онлайн-образование / Дистанционное обучение / Образование / Обучающие курсы</a>
+					</div>
+				</div>
+					<div class="logotext">
+						<img class="ecco" src="mc.png">
+
+						<div align="left" class="main_text">Megacampus – онлайн-
+университет с возможностью трудоустройства</div>
+					</div>
+					<hr style="width: 90%;">
+					<div class="cop">
+						<div class="chunk">
+							<div class="chunk2">
+								<img src="icon.png">
+							</div>
+						</div>
+						<div class="chunk">
+							<div class="chunk2">
+								
+								<div style="color: gray;">Автор</div>
+								<div>Administration</div>
+							</div>
+						</div>
+						<div class="chunk">
+							<div class="chunk2">
+								<div style="color: gray;">Отзыв:</div>
+								<div>Сотрудник</div>
+							</div>
+						</div>
+					</div>
+					<br>
+					<div align="left">
+						<div class="comtext">Стресс на работе побеждаю спортом, бегаю в своих же экковских кроссовках. Бывают моменты, когда всего много – 
+и товаров, и покупателей, и надо постоянно ставить себе Накапливается напряжение ..</div>
+					</div>
+					<br>
+					<div class="comfooter">
+						<div><img src="date.png">10.10.20</div>
+						<div><img src="com.png">327</div>
+						<div><a href="" style="color: red;">Читать отзыв</a></div>
+					</div>
+
+				</div>
+								<div class="review">
+					<div align="left">
+					<div class="corsac">
+						<a href="" class="tag">Сантехника</a>
+					</div>
+				</div>
+					<div class="logotext">
+						<img class="ecco" src="am.png">
+
+						<div align="left" class="main_text">Am.Pm сантехника отзывы</div>
+					</div>
+					<hr style="width: 90%;">
+					<div class="cop">
+						<div class="chunk">
+							<div class="chunk2">
+								<img src="icon.png">
+							</div>
+						</div>
+						<div class="chunk">
+							<div class="chunk2">
+								
+								<div style="color: gray;">Автор</div>
+								<div>Administration</div>
+							</div>
+						</div>
+						<div class="chunk">
+							<div class="chunk2">
+								<div style="color: gray;">Отзыв:</div>
+								<div>Сотрудник</div>
+							</div>
+						</div>
+					</div>
+					<br>
+					<div align="left">
+						<div class="comtext">AM.PM сантехника – это смесители, унитазы, ванны, душевые кабины, биде, мебель и аксессуары для ванных комнат. Вы можете прочитать отзывы на нашем сайте и оставить мебель и аксессуары 
+для ванных, душевые кабины ..</div>
+					</div>
+					<br>
+					<div class="comfooter">
+						<div><img src="date.png">10.10.20</div>
+						<div><img src="com.png">327</div>
+						<div><a href="" style="color: red;">Читать отзыв</a></div>
+					</div>
+
+				</div>
+								<div class="review">
+					<div align="left">
+					<div class="corsac">
+						<a href="" class="tag">Астрология / Саморазвитие</a>
+					</div>
+				</div>
+					<div class="logotext">
+						<img class="ecco" src="dm.png">
+
+						<div align="left" class="main_text">Дмитрий Шимко отзывы 
+о специалисте</div>
+					</div>
+					<hr style="width: 90%;">
+					<div class="cop">
+						<div class="chunk">
+							<div class="chunk2">
+								<img src="icon.png">
+							</div>
+						</div>
+						<div class="chunk">
+							<div class="chunk2">
+								
+								<div style="color: gray;">Автор</div>
+								<div>Administration</div>
+							</div>
+						</div>
+						<div class="chunk">
+							<div class="chunk2">
+								<div style="color: gray;">Отзыв:</div>
+								<div>Сотрудник</div>
+							</div>
+						</div>
+					</div>
+					<br>
+					<div align="left">
+						<div class="comtext">Дмитрий Шимко нумеролог-астротиполог составит Вам карту Судьбы с основными её этапами и полным описанием предстоящих жизненно важных событий! Все что для этого необходимо, это знать ..</div>
+					</div>
+					<br>
+					<div class="comfooter">
+						<div><img src="date.png">10.10.20</div>
+						<div><img src="com.png">327</div>
+						<div><a href="" style="color: red;">Читать отзыв</a></div>
+					</div>
+
+				</div>
+			</div>
+
+
+
+			<div class="logos">
+				<hr style="background-color: red; height: 1px;">
+				<div class="top5">Рейтинг ТОП5</div>
+				<div class="reviewer">
+					<div class="block1"><img src="eff.png" style="height: 100%; width: 100%;"></div>
+					<div class="block2">
+						<div class="block2_title">Effektiv</div>
+						<div class="block2_text"><div>Рейтинг:</div> <div>100%</div></div>
+				</div>
+				</div>
+				<div class="reviewer">
+					<div class="block1"><img class="hua" src="union.png"></div>
+					<div class="block2"><div class="block2_title">Unioneu.com — юридическая компания</div>
+						<div class="block2_text"><div>Рейтинг:</div> <div>100%</div></div>
+				</div>
+				</div>
+				<div class="reviewer">
+					<div class="block1"><img class="hua" src="mac.png"></div>
+					<div class="bloxk2"><div style="font-size: 0.7em;">Megacampus – онлайн-университет 
+с возможностью трудоустройства</div>
+						<div class="block2_text"><div>Рейтинг:</div> <div>100%</div></div>
+				</div>
+				</div>
+				<div class="reviewer">
+					<div class="block11"></div>
+					<div class="block2"><div style="font-size: 0.7em;">Интернет школа телемаркетологов 
+Леонида Толстого</div>
+						<div class="block2_text"><div>Рейтинг:</div> <div>100%</div></div>
+				</div>
+
+				</div>
+				<div class="reviewer">
+					<div class="block1"><img class="inst" src="syn.png"></div>
+					<div class="block2"><div class="block2_title">Университет Синергия отзывы сотрудников</div>
+
+						<div class="block2_text"><div>Рейтинг:</div> <div>100%</div></div>
+				</div>
+				</div>
+				<hr style="height: 1px; background-color: red;">
+				<div align="left">
+					<div style="color: red; font-size: 1.2em;">Последние отзывы</div>
+					<div>
+						Галина к записи Effektiv
+					</div>
+					<div>
+						Показов Р. к записи Дмитрий Шимко отзывы 
+о специалисте
+					</div>
+					<div>
+						Levin-84 к записи Unioneu.com — юридическая компания
+					</div>
+					<div>
+						Марфушечка)) к записи Switips отзывы 
+о кэшбэк сервисе
+					</div>
+					<div>
+						Маняша к записи Effektiv
+					</div>
+				</div>
+			</div>
+
+		</div>
+			<hr style="height: 1px; width: 80%;">
+			<br>
+			<div style="width: 80%; margin: 0 70px;">
+				<span style="float: left;"><img class="ing" src="logop.png"></span>
+				<span style="float: right;"><a  data-fancybox id="but" href="#hidden">Напишите нам</a></span>
+			</div>
+	</div>
+
+
+<div style="display: none; width: 500px;" id="hidden">
+	<h2>Введите данные:</h2>
+	<input type="text" placeholder="email" name="none"><br>
+	<input type="text" placeholder="сообщение" name="nane"><p></p>
+	<input onclick="parent.$.fancybox.close(); return false;" id="btn" type="button" value="отправить">
+
+</div>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+
+	<script type="text/javascript">
+		$('#but').click(function(){
+			$.fancybox.open({
+				src: '#hidden',
+				type: 'inline'
+			});
+		});
+	</script>
+</body>
+</html>
