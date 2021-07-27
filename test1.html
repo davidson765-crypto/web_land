@@ -3,9 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<title>главная</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style_style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
 
+	<script type="text/javascript" src="jas.js">
+	</script>
 
 
 </head>
@@ -448,7 +453,7 @@
 
 
 			<div class="logos">
-				<hr style="background-color: red; height: 1px;">
+				<hr style="background-color: red; height: 1px; width: 100%;">
 				<div class="top5">Рейтинг ТОП5</div>
 				<div class="reviewer">
 					<div class="block1"><img src="eff.png" style="height: 100%; width: 100%;"></div>
@@ -486,7 +491,7 @@
 				</div>
 				</div>
 				<hr style="height: 1px; background-color: red;">
-				<div align="left">
+				<div align="left" style="font-size: 1.2em;">
 					<div style="color: red; font-size: 1.2em;">Последние отзывы</div>
 					<div>
 						Галина к записи Effektiv
@@ -525,17 +530,6 @@
 	<input onclick="parent.$.fancybox.close(); return false;" id="btn" type="button" value="отправить">
 
 </div>
-	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
 
-	<script type="text/javascript">
-		$('#but').click(function(){
-			$.fancybox.open({
-				src: '#hidden',
-				type: 'inline'
-			});
-		});
-	</script>
 </body>
 </html>
