@@ -366,7 +366,7 @@
     justify-content: flex-start;
     align-items: center;
 	top: 50%;
-	margin: 50px 10px;
+	margin: 0 10px;
 	display: grid;
 	grid-template-columns: 1fr 1.5fr;
 }
