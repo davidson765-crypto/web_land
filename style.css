@@ -307,10 +307,10 @@
 		margin-right: 400px;
 	}
 	.bear{
-		width: 25%;
-		height: 30%;
+		width: 70%;
+		height: 10%;
 		position: absolute;
-		margin: -200px 200px;
+		margin: -200px 100px;
 		z-index: 4;
 	}
 	.comment{
@@ -327,13 +327,14 @@
 .reviewer{
 	box-shadow: 5px 5px 5px gray;
 	margin: 10px;
-	width: 200px;
-	height: 110px;
+	width: 400px;
+	height: 170px;
 	border: 1px solid black;
 }
 .logos{
 	margin: 0 0 0 100px;
 	display: grid;
+	justify-content: center;
 }
 .column{
 	display: grid;
@@ -451,8 +452,8 @@
 	color: black;
 }
 .block2_text{
-	margin-bottom: 2px;
-	font-size: 0.7em;
+	margin-top: 10%;
+	font-size: 1em;
 	display: grid; 
 	grid-template-columns: 1fr 1fr;
 	color: gray;
