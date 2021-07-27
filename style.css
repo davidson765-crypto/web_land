@@ -320,9 +320,9 @@
 }
 .review{
 	margin: 50px;
-	width: 500px;
-	height: 350px;
-	box-shadow: 3px 3px 3px gray;
+	width: 600px;
+	height: 400px;
+	box-shadow: 5px 5px 5px gray;
 }
 .reviewer{
 	box-shadow: 5px 5px 5px gray;
@@ -367,7 +367,7 @@
     justify-content: flex-start;
     align-items: center;
 	top: 50%;
-	margin: 0 10px;
+	margin: 20px 10px;
 	display: grid;
 	grid-template-columns: 1fr 1.5fr;
 }
@@ -389,12 +389,12 @@
 }
 .cop{
     font-size: 1em;
-	margin: 0 10px;
+	margin: 20px 10px;
 	display: grid;
 	grid-template-columns: auto auto auto;
 }
 .comtext{
-	margin: 0 10px;
+	margin: 5px 10px;
 	font-size: 1em;
 }
 .comfooter{
