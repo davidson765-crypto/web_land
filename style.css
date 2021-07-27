@@ -171,7 +171,7 @@
 	margin: 10px;
 	width: 200px;
 	height: 220px;
-	border: 1px solid black;
+	box-shadow: 3px 3px 3px gray;
 }
 .reviewer{
 	box-shadow: 5px 5px 5px gray;
@@ -298,11 +298,17 @@
 	color: black;
 }
 .block2_text{
+	margin-bottom: 2px;
 	font-size: 0.7em;
-	margin: 0 10% 0; 
 	display: grid; 
 	grid-template-columns: 1fr 1fr;
 	color: gray;
+	height: 50%;
+}
+.bloc2_title{
+	font-size: 0.7em;
+	width: 100%;
+	height: 50%;
 }
 .block11{
 	height: 40%; 
@@ -312,6 +318,7 @@
 
 @media(max-width: 540px){
 	body{
+		height: auto;
 		margin: 0 50%;
 		width: auto;
 	}
